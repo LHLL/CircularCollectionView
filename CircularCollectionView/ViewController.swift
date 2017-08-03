@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var circularCollectionView: UICollectionView!
     @IBOutlet weak var circularLayout: CircularLayout!
     
-    fileprivate var data = ["First","Second","Third","Forth","Fifth","Sixth","Seventh","Eighth","Ninth","Tenth"]
+    fileprivate var data = ["Zero","First","Second","Third","Forth","Fifth","Sixth","Seventh","Eighth","Ninth","Tenth","One", "Two", "Three"]
     fileprivate var realData:[String] = []
     fileprivate var count = 0
     
